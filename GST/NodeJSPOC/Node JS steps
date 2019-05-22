@@ -1,0 +1,34 @@
+#Steps for creating and working on Node Js Rest API
+mkdir Todo
+cd Todo
+
+touch app.js
+
+npm init 
+npm install express —-save
+npm install babel-cli --save
++npm install babel-preset-es2015 --save
+
+touch .babelrc 
+#Add the following code to .babelrc
+ {    
+ "presets": ["es2015"] 
+ }
+# code complete
+
+mkdir db
+cd db
+touch db.js 
+# add the below code to db.js
+const todos =  [
+    {
+      id: 1,
+      title: "lunch",
+      description: "Go for lunch by 2 pm"
+    }
+];
+
+export default todos;
+# code complete
+
+#
