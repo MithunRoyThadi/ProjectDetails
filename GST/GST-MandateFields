@@ -1,0 +1,28 @@
+Invoice number
+Invoice date
+Customer name
+Shipping and billing address
+Customer and taxpayer’s GST No. (if registered)*
+Place of supply
+HSN code/ SAC code
+Item details 
+	 description
+	 quantity (number)
+	 unit (meter, kg etc.)
+	 total value
+Taxable value 
+discounts
+Rate and amount of taxes i.e. 
+CGST/ 
+SGST/ 
+IGST (Whether GST is payable on reverse charge basis)
+
+
+Signature of the supplier
+*If the recipient is not registered AND the value is more than Rs. 50,000 then the invoice should carry:
+
+   i. Name and address of the recipient,
+
+  ii. Address of delivery,
+
+  iii. State name and state code
