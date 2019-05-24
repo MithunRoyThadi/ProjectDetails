@@ -1,0 +1,21 @@
+{
+	"Invoice_number"	: 1231,
+	"Invoice_date"		: "Test Data",
+	"Customer name"		: "Test Name",
+	"Shipping&billing_address"	: "Test Shippable Address",
+	"Customer and taxpayer’s GST No. (if registered)*" : "IGST12135454",
+	"Place of supply" : "Test Location",
+	"HSN code/ SAC code" : "Test HSN Code",
+	"Item details" :[{
+		 "description" : "Test Item description",
+		 "quantity (number)" : 1,
+		 "unit (meter, kg etc.)" : "unit",
+		 "total value": 12000
+		 }],
+	"Taxable value":12000, 
+	"discounts":"10%",
+	"Rate and amount of taxes i.e. ":10800,
+	"CGST" : 1080, 
+	"SGST" : 1080, 
+	"IGST" : 0 
+}
