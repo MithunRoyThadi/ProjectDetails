@@ -1,0 +1,8 @@
+--Rest API for user details fetching
+#Endpoints
+[POST] endpoint/users
+[GET] endpoint/users (list users)
+[GET] endpoint/users/:userId (get specific user)
+[PATCH] endpoint/users/:userId (update the data for the specified user)
+[DELETE] endpoint/users/:userId (remove the specified user)
+
