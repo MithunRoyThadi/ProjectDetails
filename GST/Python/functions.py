@@ -28,12 +28,6 @@ def createJson(params: dict):
 	lstInfo	=	params["LSTInfo"]
 	lstType	=	lstInfo["LSTType"]
 	
-	#file base elements
-	if lstType == "File":
-		folderName = lstFileBase+lstInfo["Collection"]
-		fileName   = lstInfo["Document"]
-		print("File")
-	
 	#Authentication info
 	userName   = lstInfo["UserName"]
 	password   = lstInfo["PassWord"]
@@ -44,6 +38,9 @@ def createJson(params: dict):
 	batchId    = lstInfo["BatchId"]
 	
 	if lstType == "File":
+		#file base elements
+		folderName = lstFileBase+lstInfo["Collection"]
+		fileName   = lstInfo["Document"]
 		os.makedirs(folderName)
 		with open(folderName+"/"+fileName,'w+') as workingFile:
 			json.dump(jsonData,workingFile)
