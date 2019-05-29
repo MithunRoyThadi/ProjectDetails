@@ -1,0 +1,12 @@
+{
+	"LSTInfo" : {	  "Collection": "/test",
+                      "Document": "test.json", 
+                      "UserName": "mithun", 
+                      "PassWord": "M1thuns", 
+                      "AutoGenerate": "Y", 
+                      "OverWrite": "Y", 
+                      "BatchId": "1234",
+					  "LSTType": "File"
+					  },
+    "JsonData": "test data"
+}

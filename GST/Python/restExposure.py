@@ -4,7 +4,7 @@ from flask import request
 import functions
 
 app = Flask(__name__)
-
+#api = api(app)
 
 @app.route('/call/<function_name>', methods=[ 'POST', 'PUT', 'DELETE'])
 def call_function(function_name: str):
@@ -19,4 +19,4 @@ def get_function(function_name: str):
     
     return function_to_call()
 	
-app.run(host="172.17.3.30")
+app.run(host="172.17.3.30",port="1111")
