@@ -26,5 +26,6 @@
     "swagger-ui-express": "^2.0.13",
     "sync-request": "^4.0.2"
   },
-  "description": "test Rest API"
+  "description": "test Rest API",
+  "devDependencies": {}
 }
